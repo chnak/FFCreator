@@ -1,0 +1,18 @@
+<miraml>
+  <canvas width="640" height="640" render="webgl" pathId="tt">
+    <spine>
+      <video src="https://mira-1255830993.cos.ap-shanghai.myqcloud.com/public2/190204084208765161.mp4" 
+        duration="3" x="50vw" y="50vh" width="100vw" height="100vh" ss="4"></video>
+      <video src="https://mira-1255830993.cos.ap-shanghai.myqcloud.com/public2/190204084208765161.mp4" 
+        duration="3" x="50vw" y="50vh" width="100vw" height="100vh" ss="4"></video>
+      <trans key="doorway" duration="2.8" >
+      </trans>
+      <video src="https://mira-1255830993.cos.ap-shanghai.myqcloud.com/public2/190204084208765161.mp4" 
+        duration="3" x="50vw" y="50vh" width="100vw" height="100vh" ss="8"></video>
+    </spine>
+    <subtitle  duration="9"  fontSize="30rpx" speech="https://video-api.foliko.com/files/131b4001rs51d.mp3" width="100vw" x="50vw" y="50vh" fontFamily="https://mira-1255830993.cos.ap-shanghai.myqcloud.com/fonts/OPPOSansMedium.ttf" wrap="true" refId="e8qy5qccwipduspo" active="true" start="0" zIndex="2" comma="true">
+      <content>网易手机帐号是以手机号码作为帐号的一种帐号形式，没有@后缀，无法收发电子邮件，可以通过手机号码+短信直接注册或登录。</content>
+      <stroke color="#000000" size="10%"></stroke>
+    </subtitle>
+  </canvas>
+</miraml>
