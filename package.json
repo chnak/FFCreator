@@ -39,7 +39,7 @@
     "fluent-ffmpeg": "^2.1.2",
     "fs-extra": "^9.0.1",
 	  "inkpaint": "gitlab:foliko/inkpaint",
-    "get-pixels": "github:miravideo/get-pixels",
+    "get-pixels": "https://github.com/miravideo/get-pixels.git",
     "gl-buffer": "^2.1.2",
     "gl-texture2d": "^2.1.0",
     "gl-transition": "^1.13.0",
