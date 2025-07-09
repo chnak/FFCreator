@@ -62,7 +62,7 @@
     "soundtouchjs": "^0.2.1",
     "web-audio-api": "^0.2.2"
   },
-  "resolutions": {
+  "overrides": {
     "speaker": "0.5.5"
   },
   "devDependencies": {
