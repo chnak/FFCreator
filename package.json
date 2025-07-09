@@ -63,7 +63,9 @@
     "web-audio-api": "^0.2.2"
   },
   "overrides": {
-    "speaker": "0.5.5"
+    "speaker": "0.5.5",
+    "puppeteer":"24.12.1",
+    "canvas": "npm:skia-canvas@2.0.2"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
