@@ -60,6 +60,7 @@
     "siz": "^1.2.2",
     "soundtouchjs": "^0.2.1",
     "stackblur-canvas": "^2.6.0",
+	"av":"file:av-v0.4.9.tgz",
     "web-audio-api": "^0.2.2"
   },
   "overrides": {
