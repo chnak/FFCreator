@@ -62,8 +62,11 @@
     "soundtouchjs": "^0.2.1",
     "web-audio-api": "^0.2.2"
   },
+  "resolutions": {
+    "web-audio-api/av/speaker": "0.5.5"
+  }，
   "overrides": {
-    "ffcreator/web-audio-api/av/speaker": "0.5.5",
+    "web-audio-api/av/speaker": "0.5.5",
     "puppeteer":"24.12.1",
     "canvas": "3.1.2"
   },
