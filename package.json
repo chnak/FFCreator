@@ -37,13 +37,13 @@
     "ffmpeg-probe": "^1.0.6",
     "fluent-ffmpeg": "^2.1.3",
     "fs-extra": "^9.0.1",
-    "get-pixels": "file:get-pixels-v3.3.3.tgz",
+    "get-pixels": "file:local-packages/get-pixels-v3.3.3.tgz",
     "gl-buffer": "^2.1.2",
     "gl-texture2d": "^2.1.0",
     "gl-transition": "^1.13.0",
     "gl-transitions": "^1.43.0",
     "html2canvas": "^1.4.1",
-    "inkpaint": "file:inkpaint-v2.7.1.tgz",
+    "inkpaint": "file:local-packages/inkpaint-v2.7.1.tgz",
     "koa": "^2.13.4",
     "koa-body": "^5.0.0",
     "left-pad": "^1.3.0",
@@ -60,9 +60,14 @@
     "siz": "^1.2.2",
     "soundtouchjs": "^0.2.1",
     "stackblur-canvas": "^2.6.0",
-	"av":"file:av-v0.4.9.tgz",
+	"av":"file:local-packages/av-v0.4.9.tgz",
     "web-audio-api": "^0.2.2"
   },
+  "bundledDependencies": [
+    "inkpaint",
+    "get-pixels",
+    "av"
+  ],
   "overrides": {
     "speaker": "0.5.5"
   },
