@@ -63,7 +63,7 @@
     "web-audio-api": "^0.2.2"
   },
   "overrides": {
-    "**/speaker": "^0.5.5"
+    "**/av/speaker": "0.5.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
