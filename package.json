@@ -15,8 +15,7 @@
     "install_arm64": "build-opencv --version 4.5.4 --flag=\"-DCMAKE_SYSTEM_PROCESSOR=arm64 -DCMAKE_OSX_ARCHITECTURES=arm64\" rebuild",
     "do-install": "build-opencv rebuild",
     "do-install-homebrew": "build-opencv --incDir /opt/homebrew/Cellar/opencv/4.5.5_2/include/opencv4/ --libDir /opt/homebrew/Cellar/opencv/4.5.5_2/lib/ --binDir=/opt/homebrew/Cellar/opencv/4.5.5_2/bin/ --nobuild rebuild",
-    "do-ubuntu-install": "build-opencv --incDir /usr/include/opencv --libDir /usr/lib/x86_64-linux-gnu/ --binDir=/usr/bin/ --nobuild rebuild",
-	"postinstall": "find node_modules -name speaker -type d -exec rm -rf {} + && npm install speaker@0.5.5"
+    "do-ubuntu-install": "build-opencv --incDir /usr/include/opencv --libDir /usr/lib/x86_64-linux-gnu/ --binDir=/usr/bin/ --nobuild rebuild"
   },
   "repository": "https://github.com/tnfe/FFCreator",
   "homepage": "https://tnfe.github.io/FFCreator",
@@ -34,18 +33,17 @@
     "browser-or-node": "^1.3.0",
     "canvas": "^3.1.2",
     "colors": "^1.4.0",
-    "stackblur-canvas": "^2.6.0",
     "eventemitter3": "^4.0.7",
     "ffmpeg-probe": "^1.0.6",
     "fluent-ffmpeg": "^2.1.3",
     "fs-extra": "^9.0.1",
-	  "inkpaint": "git+https://github.com/chnak/inkpaint.git",
     "get-pixels": "git+https://github.com/chnak/get-pixels.git",
     "gl-buffer": "^2.1.2",
     "gl-texture2d": "^2.1.0",
     "gl-transition": "^1.13.0",
     "gl-transitions": "^1.43.0",
     "html2canvas": "^1.4.1",
+    "inkpaint": "git+https://github.com/chnak/inkpaint.git",
     "koa": "^2.13.4",
     "koa-body": "^5.0.0",
     "left-pad": "^1.3.0",
@@ -61,10 +59,8 @@
     "rmfr": "^2.0.0",
     "siz": "^1.2.2",
     "soundtouchjs": "^0.2.1",
+    "stackblur-canvas": "^2.6.0",
     "web-audio-api": "^0.2.2"
-  },
-  "resolutions": {
-    "**/speaker": "0.5.5"
   },
   "overrides": {
     "speaker": "0.5.5"
@@ -87,5 +83,9 @@
     "dist",
     "lib",
     "types"
-  ]
+  ],
+  "packageManager": "yarn@4.9.2",
+  "resolutions": {
+    "av@npm:0.4.x": "patch:av@npm%3A0.4.9#~/.yarn/patches/av-npm-0.4.9-8535b5b213.patch"
+  }
 }
