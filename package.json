@@ -60,10 +60,14 @@
     "rmfr": "^2.0.0",
     "siz": "^1.2.2",
     "soundtouchjs": "^0.2.1",
+	"speaker":"^0.5.5",
     "web-audio-api": "^0.2.2"
   },
+  "resolutions": {
+    "**/speaker": "0.5.5"
+  },
   "overrides": {
-    "**/av/speaker": "0.5.5"
+    "speaker": "0.5.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
