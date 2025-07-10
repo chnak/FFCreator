@@ -64,7 +64,7 @@
   },
   "resolutions": {
     "web-audio-api/av/speaker": "0.5.5"
-  }，
+  },
   "overrides": {
     "web-audio-api": {
       "av": {
