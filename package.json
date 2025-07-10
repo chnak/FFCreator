@@ -63,7 +63,6 @@
 	"av":"https://raw.githubusercontent.com/chnak/FFCreator/main/local-packages/av-v0.4.9.tgz",
     "web-audio-api": "^0.2.2"
   },
-  "bundledDependencies": ["inkpaint", "get-pixels", "av"],
   "overrides": {
     "speaker": "0.5.5"
   },
