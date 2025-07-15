@@ -27,6 +27,136 @@ When you need to process a lot of video clips and need faster synthesis speed, `
 
 #### For more introduction, please see [here](https://tnfe.github.io/FFCreator/#/README)
 
+## 视频描述格式
+采用JSON格式，树形结构描述的视频如下：
+```javascript
+const video_data = {
+  "type": "canvas",
+  "width": 1280,
+  "height": 720,
+  "children": [
+    {
+      "type": "video",
+      "src": "/src/video1.mp4",
+      "width": "100vw",
+      "ss": 10,
+      "to": 20,
+    },
+    {
+      "type": "video",
+      "src": "/src/video2.mp4",
+      "height": "100vh",
+    },
+  ],
+};
+```
+我们可以简单的把树形结构的节点想象为`HTML里的DOM节点`。   
+每个节点都有`type`和`children`属性，以及节点类型所对应的属性。   
+为了便于理解和编写测试，我们也引入了MiraML作为补充，上面的JSON等同于以下：
+```xml
+<miraml>
+  <canvas width="1280" height="720">
+    <video src="/src/video1.mp4" width="100vw" ss="10" to="20"></video>
+    <video src="/src/video2.mp4" height="100vh"></video>
+  </canvas>
+</miraml>
+```
+引入树形结构的目的是：
+1. 父子节点关系，可用于处理时间依赖
+2. 与DOM节点逻辑类似，便于理解
+
+详细的树形结构逻辑与节点属性列表，请参考：[视频描述文档](./JSONAPI.zh-CN.md)
+
+比如下面一段简单的XML即可实现文字作为视频蒙版动画的效果
+```xml
+<video x="50vw" y="50vh" height="100vh" src="oceans.mp4">
+  <text text="OCEAN" fontSize="100rpx" color="#FFF" x="50vw" y="50vh" asMask="true" duration="4">
+    <animate time="2" delay="2">
+      <from scale="1"></from>
+      <to scale="30" y="1500"></to>
+    </animate>
+  </text>
+</video>
+```
+
+<img src="https://miravideo.github.io/mira-player/preview-02.gif" width="640" height="360" />
+
+
+## API示例
+
+### 视频预览 Browser JS
+```javascript
+const { Factory } = require('ffcreator');
+const { node: creator } = Factory.from(video_data);
+
+// 初始化，加载源素材
+await creator.start();
+
+// 播放相关事件
+creator.on('loadedmetadata', () => {
+  // 加载完毕的回调
+  console.log(creator.duration);
+}).on('timeupdate', () => {
+  // 时间更新
+  console.log(creator.currentTime);
+}).on('seeking', () => {
+  // 选择时间开始
+}).on('seeked', () => {
+  // 选择时间结束
+}).on('play', () => {
+  // 播放
+}).on('pause', () => {
+  // 暂停
+}).on('playing', () => {
+  // 播放中
+}).on('ended', () => {
+  // 播放结束
+});
+
+// 播放
+creator.play(playbackRate);
+
+// 暂停
+creator.pause();
+
+// 选择时间
+creator.jumpTo(timeInMs);
+```
+
+### 视频烧录 Node.js
+```javascript
+const { Factory } = require('ffcreator');
+const { node: creator } = Factory.from(video_data);
+
+creator.on('start', () => {
+    console.log(`start`);
+  }).on('error', e => {
+    console.error("error", e);
+  }).on('progress', e => {
+    let number = e.percent || 0;
+    console.log(`progress: ${(number * 100) >> 0}%`);
+  }).on('complete', e => {
+    console.log(`completed: ${e.output}`);
+  });
+
+// 新建文件夹
+creator.generateOutput()
+
+// 开始烧录
+creator.start();
+```
+
+### 其他接口
+```javascript
+// 获取当前视频描述（JSON格式）
+creator.toJson()
+
+// 销毁, 回收内存
+await creator.destroy()
+```
+
+
+
 ### Features
 
 - Based on `node.js` development, it is very simple to use and easy to expand and develop.
