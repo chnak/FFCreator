@@ -1,0 +1,806 @@
+{
+    "type": "canvas",
+    "width": 1080,
+    "height": 1920,
+    "duration": 37,
+    "name": "Composite",
+    "author": "chnak",
+    "cover": null,
+    "refId": "39w28c41fpy",
+    "children": [
+        {
+            "type": "spine",
+            "refId": "pnd5cot3jjs",
+            "zIndex": 0,
+            "children": [
+                {
+                    "bgcolor": "#000000",
+                    "active": true,
+                    "isCover": true,
+                    "id": "cover",
+                    "type": "scene",
+                    "duration": 3,
+                    "zIndex": 2,
+                    "refId": "cb154j05wjr",
+                    "isScene": false,
+                    "children": [
+                        {
+                            "src": "D:/code/foliko-trade/public/files/1pn2x003uh51d.jpg",
+                            "x": "50vw",
+                            "y": "50vh",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "object-fit": "cover",
+                            "duration": 3,
+                            "blur": null,
+                            "effect": [
+                                {
+                                    "name": "fadeOut",
+                                    "time": 0.5,
+                                    "delay": 2.5
+                                }
+                            ],
+                            "start": 0,
+                            "type": "image",
+                            "refId": "0v6vewm2lnq",
+                            "zIndex": 1,
+                            "active": true,
+                            "children": []
+                        },
+                        {
+                            "text": "波比的森林冒险",
+                            "fontSize": "20rpx",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "40vh",
+                            "duration": 3,
+                            "color": "#ffffff",
+                            "start": 0,
+                            "effect": [
+                                {
+                                    "name": "zoomOutDown",
+                                    "time": 0.5,
+                                    "delay": 2.5
+                                }
+                            ],
+                            "type": "text",
+                            "refId": "h099zivb4f",
+                            "backgroundColor": null,
+                            "letterSpacing": null,
+                            "lineHeight": "120%",
+                            "asMask": false,
+                            "stroke": {
+                                "color": "#FFF",
+                                "size": 0
+                            },
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "width": null,
+                            "wrap": true,
+                            "height": null,
+                            "active": true,
+                            "children": []
+                        },
+                        {
+                            "text": "一个关于友谊与愿望的故事",
+                            "fontSize": "16rpx",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "60vh",
+                            "duration": 3,
+                            "color": "#ffffff",
+                            "start": 0,
+                            "effect": [
+                                {
+                                    "name": "zoomOutDown",
+                                    "time": 0.5,
+                                    "delay": 2.5
+                                }
+                            ],
+                            "type": "text",
+                            "refId": "psf41zivf",
+                            "backgroundColor": null,
+                            "letterSpacing": null,
+                            "lineHeight": "120%",
+                            "asMask": false,
+                            "stroke": {
+                                "color": "#FFF",
+                                "size": 0
+                            },
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "width": null,
+                            "wrap": true,
+                            "height": null,
+                            "active": true,
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "duration": 2,
+                    "key": "fade",
+                    "zIndex": 6,
+                    "type": "trans",
+                    "refId": "o81ecnhkidc",
+                    "prevRefId": "cb154j05wjr",
+                    "nextRefId": "wu8ydxpebzc",
+                    "children": []
+                },
+                {
+                    "bgcolor": "#8B4513",
+                    "zIndex": 2,
+                    "compositionId": "39w28c41fpy",
+                    "parentId": "pnd5cot3jjs",
+                    "duration": 5,
+                    "type": "scene",
+                    "id": "i6dcqjqq17g",
+                    "refId": "wu8ydxpebzc",
+                    "active": true,
+                    "isScene": true,
+                    "children": [
+                        {
+                            "src": "D:/code/foliko-trade/public/files/1pn2x003uh51d.jpg",
+                            "x": "50vw",
+                            "y": "50vh",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "duration": 5,
+                            "effect": [],
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "wu8ydxpebzc",
+                            "type": "image",
+                            "refId": "4sj18y794",
+                            "zIndex": 1,
+                            "active": true,
+                            "children": [],
+                            "start": 0,
+                            "end": 5
+                        },
+                        {
+                            "text": "波比决定踏上寻找这棵树的旅程",
+                            "fontSize": "32rpx",
+                            "color": "#fff",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "50vh",
+                            "duration": 5,
+                            "effect": "fadeIn",
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "wu8ydxpebzc",
+                            "effectTime": 1,
+                            "effectDelay": 0,
+                            "type": "text",
+                            "refId": "o5cgq8z944s",
+                            "backgroundColor": null,
+                            "letterSpacing": null,
+                            "lineHeight": "120%",
+                            "asMask": false,
+                            "stroke": {
+                                "color": "#FFF",
+                                "size": 0
+                            },
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "width": null,
+                            "wrap": true,
+                            "height": null,
+                            "active": true,
+                            "children": [],
+                            "start": 0,
+                            "end": 5
+                        }
+                    ],
+                    "start": 3,
+                    "end": 8
+                },
+                {
+                    "duration": 2,
+                    "key": "fade",
+                    "zIndex": 6,
+                    "type": "trans",
+                    "refId": "2whw78dosvj",
+                    "prevRefId": "wu8ydxpebzc",
+                    "nextRefId": "lzajvlss2dj",
+                    "children": []
+                },
+                {
+                    "bgcolor": "#2F4F4F",
+                    "zIndex": 2,
+                    "compositionId": "39w28c41fpy",
+                    "parentId": "pnd5cot3jjs",
+                    "duration": 6,
+                    "type": "scene",
+                    "id": "myfl1ygeii",
+                    "refId": "lzajvlss2dj",
+                    "active": true,
+                    "isScene": true,
+                    "children": [
+                        {
+                            "src": "D:/code/foliko-trade/public/files/1pn2x004uh50d.jpg",
+                            "x": "50vw",
+                            "y": "50vh",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "duration": 6,
+                            "effect": [],
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "lzajvlss2dj",
+                            "type": "image",
+                            "refId": "mfe442dh4m8",
+                            "zIndex": 1,
+                            "active": true,
+                            "children": [],
+                            "start": 0,
+                            "end": 6
+                        }
+                    ],
+                    "start": 8,
+                    "end": 14
+                },
+                {
+                    "duration": 2,
+                    "key": "fade",
+                    "zIndex": 6,
+                    "type": "trans",
+                    "refId": "2t3iplo3z8k",
+                    "prevRefId": "lzajvlss2dj",
+                    "nextRefId": "51f9i4f20b",
+                    "children": []
+                },
+                {
+                    "bgcolor": "#8B4513",
+                    "zIndex": 2,
+                    "compositionId": "39w28c41fpy",
+                    "parentId": "pnd5cot3jjs",
+                    "duration": 6,
+                    "type": "scene",
+                    "id": "q4anykdmbya",
+                    "refId": "51f9i4f20b",
+                    "active": true,
+                    "isScene": true,
+                    "children": [
+                        {
+                            "src": "D:/code/foliko-trade/public/files/1pn2x005uh51d.jpg",
+                            "x": "50vw",
+                            "y": "50vh",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "duration": 6,
+                            "effect": [],
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "51f9i4f20b",
+                            "type": "image",
+                            "refId": "w3628ogfbjf",
+                            "zIndex": 1,
+                            "active": true,
+                            "children": [],
+                            "start": 0,
+                            "end": 6
+                        }
+                    ],
+                    "start": 14,
+                    "end": 20
+                },
+                {
+                    "duration": 2,
+                    "key": "fade",
+                    "zIndex": 6,
+                    "type": "trans",
+                    "refId": "lu37dcanegi",
+                    "prevRefId": "51f9i4f20b",
+                    "nextRefId": "e0c80zqu81",
+                    "children": []
+                },
+                {
+                    "bgcolor": "#2F4F4F",
+                    "zIndex": 2,
+                    "compositionId": "39w28c41fpy",
+                    "parentId": "pnd5cot3jjs",
+                    "duration": 7,
+                    "type": "scene",
+                    "id": "723heckb7mh",
+                    "refId": "e0c80zqu81",
+                    "active": true,
+                    "isScene": true,
+                    "children": [
+                        {
+                            "src": "D:/code/foliko-trade/public/files/1pn2x007uh51d.jpg",
+                            "x": "50vw",
+                            "y": "50vh",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "duration": 7,
+                            "effect": [],
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "e0c80zqu81",
+                            "type": "image",
+                            "refId": "8voakb3mcpj",
+                            "zIndex": 1,
+                            "active": true,
+                            "children": [],
+                            "start": 0,
+                            "end": 7
+                        }
+                    ],
+                    "start": 20,
+                    "end": 27
+                },
+                {
+                    "duration": 2,
+                    "key": "fade",
+                    "zIndex": 6,
+                    "type": "trans",
+                    "refId": "muwzb9gjc4h",
+                    "prevRefId": "e0c80zqu81",
+                    "nextRefId": "zjvrazx3j39",
+                    "children": []
+                },
+                {
+                    "bgcolor": "#8B4513",
+                    "zIndex": 2,
+                    "compositionId": "39w28c41fpy",
+                    "parentId": "pnd5cot3jjs",
+                    "duration": 5,
+                    "type": "scene",
+                    "id": "i1f65kyrb9",
+                    "refId": "zjvrazx3j39",
+                    "active": true,
+                    "isScene": true,
+                    "children": [
+                        {
+                            "src": "D:/code/foliko-trade/public/files/1pn2x007uh51d.jpg",
+                            "x": "50vw",
+                            "y": "50vh",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "duration": 5,
+                            "effect": [],
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "zjvrazx3j39",
+                            "type": "image",
+                            "refId": "9md5c3zrc7a",
+                            "zIndex": 1,
+                            "active": true,
+                            "children": [],
+                            "start": 0,
+                            "end": 5
+                        }
+                    ],
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "duration": 2,
+                    "key": "fade",
+                    "zIndex": 6,
+                    "type": "trans",
+                    "refId": "1f4mz658j7b",
+                    "prevRefId": "zjvrazx3j39",
+                    "nextRefId": "6fkta3sdrxl",
+                    "children": []
+                },
+                {
+                    "bgcolor": "#2F4F4F",
+                    "zIndex": 2,
+                    "compositionId": "39w28c41fpy",
+                    "parentId": "pnd5cot3jjs",
+                    "duration": 5,
+                    "type": "scene",
+                    "id": "xjqkfeqn3eh",
+                    "refId": "6fkta3sdrxl",
+                    "active": true,
+                    "isScene": true,
+                    "children": [
+                        {
+                            "src": "D:/code/foliko-trade/public/files/1pn2x008uh50d.jpg",
+                            "x": "50vw",
+                            "y": "50vh",
+                            "width": "100vw",
+                            "height": "100vh",
+                            "duration": 5,
+                            "effect": [],
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "6fkta3sdrxl",
+                            "type": "image",
+                            "refId": "h6604x22v5t",
+                            "zIndex": 1,
+                            "active": true,
+                            "children": [],
+                            "start": 0,
+                            "end": 5
+                        }
+                    ],
+                    "start": 32,
+                    "end": 37
+                }
+            ],
+            "duration": 37
+        },
+        {
+            "type": "scene",
+            "id": "subtitle",
+            "zIndex": 1000,
+            "refId": "6cdilreuvbn",
+            "active": true,
+            "isScene": false,
+            "children": [
+                {
+                    "refId": "uv9v34n6l7k",
+                    "type": "scene",
+                    "isSubtitle": true,
+                    "duration": 6,
+                    "children": [
+                        {
+                            "text": "波比遇到了友善的松鼠，",
+                            "fontSize": "15rpx",
+                            "color": "#fff",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "80vh",
+                            "duration": 3.473684210526316,
+                            "volume": 2,
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "lzajvlss2dj",
+                            "type": "text",
+                            "refId": "0fprzsbms27l",
+                            "backgroundColor": null,
+                            "stroke": {
+                                "color": "#000",
+                                "size": 0
+                            },
+                            "start": 0,
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "wrap": true,
+                            "active": true,
+                            "children": [],
+                            "tts": false,
+                            "end": 3.473684210526316
+                        },
+                        {
+                            "text": "一起寻找神奇的树",
+                            "fontSize": "15rpx",
+                            "color": "#fff",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "80vh",
+                            "duration": 2.526315789473684,
+                            "volume": 2,
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "lzajvlss2dj",
+                            "type": "text",
+                            "refId": "rwhjif8f7tg",
+                            "backgroundColor": null,
+                            "stroke": {
+                                "color": "#000",
+                                "size": 0
+                            },
+                            "start": 3.473684210526316,
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "wrap": true,
+                            "active": true,
+                            "children": [],
+                            "tts": false,
+                            "end": 6
+                        }
+                    ],
+                    "start": 8,
+                    "end": 14
+                },
+                {
+                    "refId": "ca496q2dtfk",
+                    "type": "scene",
+                    "isSubtitle": true,
+                    "duration": 6,
+                    "children": [
+                        {
+                            "text": "波比遇到了聪明的猫头鹰，",
+                            "fontSize": "15rpx",
+                            "color": "#fff",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "80vh",
+                            "duration": 3.428571428571429,
+                            "volume": 2,
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "51f9i4f20b",
+                            "type": "text",
+                            "refId": "z4lq1x2ukm8",
+                            "backgroundColor": null,
+                            "stroke": {
+                                "color": "#000",
+                                "size": 0
+                            },
+                            "start": 0,
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "wrap": true,
+                            "active": true,
+                            "children": [],
+                            "tts": false,
+                            "end": 3.428571428571429
+                        },
+                        {
+                            "text": "得到了寻找树的建议",
+                            "fontSize": "15rpx",
+                            "color": "#fff",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "80vh",
+                            "duration": 2.571428571428571,
+                            "volume": 2,
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "51f9i4f20b",
+                            "type": "text",
+                            "refId": "c8lituviwpe",
+                            "backgroundColor": null,
+                            "stroke": {
+                                "color": "#000",
+                                "size": 0
+                            },
+                            "start": 3.428571428571429,
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "wrap": true,
+                            "active": true,
+                            "children": [],
+                            "tts": false,
+                            "end": 6
+                        }
+                    ],
+                    "start": 14,
+                    "end": 20
+                },
+                {
+                    "refId": "4dmzo7ywpmm",
+                    "type": "scene",
+                    "isSubtitle": true,
+                    "duration": 7,
+                    "children": [
+                        {
+                            "text": "波比遇到了调皮的兔子，",
+                            "fontSize": "15rpx",
+                            "color": "#fff",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "80vh",
+                            "duration": 3.347826086956522,
+                            "volume": 2,
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "e0c80zqu81",
+                            "type": "text",
+                            "refId": "d0j8jl9id2p",
+                            "backgroundColor": null,
+                            "stroke": {
+                                "color": "#000",
+                                "size": 0
+                            },
+                            "start": 0,
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "wrap": true,
+                            "active": true,
+                            "children": [],
+                            "tts": false,
+                            "end": 3.347826086956522
+                        },
+                        {
+                            "text": "它们一起继续寻找神奇的树",
+                            "fontSize": "15rpx",
+                            "color": "#fff",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "80vh",
+                            "duration": 3.652173913043478,
+                            "volume": 2,
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "e0c80zqu81",
+                            "type": "text",
+                            "refId": "swfgjb1wvgs",
+                            "backgroundColor": null,
+                            "stroke": {
+                                "color": "#000",
+                                "size": 0
+                            },
+                            "start": 3.347826086956522,
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "wrap": true,
+                            "active": true,
+                            "children": [],
+                            "tts": false,
+                            "end": 7
+                        }
+                    ],
+                    "start": 20,
+                    "end": 27
+                },
+                {
+                    "refId": "yftshrjb2ia",
+                    "type": "scene",
+                    "isSubtitle": true,
+                    "duration": 5,
+                    "children": [
+                        {
+                            "text": "波比终于找到了神奇的树，",
+                            "fontSize": "15rpx",
+                            "color": "#fff",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "80vh",
+                            "duration": 3.75,
+                            "volume": 2,
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "zjvrazx3j39",
+                            "type": "text",
+                            "refId": "mmzoh5n6pms",
+                            "backgroundColor": null,
+                            "stroke": {
+                                "color": "#000",
+                                "size": 0
+                            },
+                            "start": 0,
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "wrap": true,
+                            "active": true,
+                            "children": [],
+                            "tts": false,
+                            "end": 3.75
+                        },
+                        {
+                            "text": "准备许愿",
+                            "fontSize": "15rpx",
+                            "color": "#fff",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "80vh",
+                            "duration": 1.25,
+                            "volume": 2,
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "zjvrazx3j39",
+                            "type": "text",
+                            "refId": "zbnaxu2981n",
+                            "backgroundColor": null,
+                            "stroke": {
+                                "color": "#000",
+                                "size": 0
+                            },
+                            "start": 3.75,
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "wrap": true,
+                            "active": true,
+                            "children": [],
+                            "tts": false,
+                            "end": 5
+                        }
+                    ],
+                    "start": 27,
+                    "end": 32
+                },
+                {
+                    "refId": "kc3rio9af9h",
+                    "type": "scene",
+                    "isSubtitle": true,
+                    "duration": 5,
+                    "children": [
+                        {
+                            "text": "波比的愿望实现了，",
+                            "fontSize": "15rpx",
+                            "color": "#fff",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "80vh",
+                            "duration": 2.6470588235294117,
+                            "volume": 2,
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "6fkta3sdrxl",
+                            "type": "text",
+                            "refId": "qfbi78nfjc",
+                            "backgroundColor": null,
+                            "stroke": {
+                                "color": "#000",
+                                "size": 0
+                            },
+                            "start": 0,
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "wrap": true,
+                            "active": true,
+                            "children": [],
+                            "tts": false,
+                            "end": 2.6470588235294117
+                        },
+                        {
+                            "text": "森林里充满了食物",
+                            "fontSize": "15rpx",
+                            "color": "#fff",
+                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
+                            "x": "50vw",
+                            "y": "80vh",
+                            "duration": 2.3529411764705883,
+                            "volume": 2,
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "6fkta3sdrxl",
+                            "type": "text",
+                            "refId": "0zrawjamwzt",
+                            "backgroundColor": null,
+                            "stroke": {
+                                "color": "#000",
+                                "size": 0
+                            },
+                            "start": 2.6470588235294117,
+                            "shadow": {
+                                "color": null,
+                                "alpha": 1,
+                                "offset": null
+                            },
+                            "zIndex": 4,
+                            "wrap": true,
+                            "active": true,
+                            "children": [],
+                            "tts": false,
+                            "end": 5
+                        }
+                    ],
+                    "start": 32,
+                    "end": 37
+                }
+            ],
+            "duration": 37,
+            "start": 0,
+            "end": 37
+        }
+    ]
+}
