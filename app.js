@@ -50,11 +50,11 @@ const video={
                             "children": []
                         },
                         {
-                            "url": "https://codepen.io/cassie-codes/pen/vYWvwXV",
+                            "url": "https://codepen.io/mikeK/pen/pqQJyY",
                             "x": "50vw",
                             "y": "50vh",
                             "width": "100vw",
-							"selector":"body",
+							"selector":".greensock",
 							"duration": 10,
                             "effect": [
 								{
