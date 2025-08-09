@@ -50,16 +50,17 @@ const video={
                             "children": []
                         },
                         {
-                            "url": "https://codepen.io/mikeK/pen/pqQJyY",
+                            "url": "https://codepen.io/goodcontext/pen/OJQxvZp",
                             "x": "50vw",
                             "y": "50vh",
                             "width": "100vw",
-							"selector":".greensock",
+							"selector":".wrapper",
+							
 							"duration": 10,
                             "effect": [
 								{
                                     "name": "fadeIn",
-                                    "time": 2
+                                    "time": 0.5
                                 }
 							],
 							"transparent":true,
