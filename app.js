@@ -26,86 +26,48 @@ const video={
                     "active": true,
                     "isScene": true,
                     "children": [
-                        {
-                            "src": "D:/code/foliko-trade/public/files/1pn2x003uh51d.jpg",
+						{
+                            "src": "D:/code/foliko-trade/public/files/giphy.gif",
                             "x": "50vw",
                             "y": "50vh",
                             "width": "100vw",
                             "height": "100vh",
-                            "duration": 20,
-                            "effect": [],
-                            "compositionId": "39w28c41fpy",
-                            "parentId": "wu8ydxpebzc",
-                            "type": "image",
-                            "refId": "4sj18y794",
-                            "zIndex": 1,
-                            "active": true,
-                            "children": [],
-                            "start": 0,
-                            "end": 20
-                        },
-                        {
-                            "text": "波比决定踏上寻找这棵树的旅程",
-                            "fontSize": "32rpx",
-                            "color": "#fff",
-                            "fontFamily": "D:/code/foliko-trade/public/fonts/MicrosoftYaHei-01.ttf",
-                            "x": "50vw",
-                            "y": "50vh",
-                            "duration": 20,
-                            "effect": "fadeIn",
-                            "compositionId": "39w28c41fpy",
-                            "parentId": "wu8ydxpebzc",
-                            "effectTime": 1,
-                            "effectDelay": 0,
-                            "type": "text",
-                            "refId": "o5cgq8z944s",
-                            "backgroundColor": null,
-                            "letterSpacing": null,
-                            "lineHeight": "120%",
-                            "asMask": false,
-                            "stroke": {
-                                "color": "#FFF",
-                                "size": 0
-                            },
-                            "shadow": {
-                                "color": null,
-                                "alpha": 1,
-                                "offset": null
-                            },
-							"animate": [
+                            "object-fit": "cover",
+                            "duration": 10,
+                            "blur": null,
+                            "effect": [
                                 {
-									"ease":"Quartic.InOut",
-                                    "delay": 0,
-                                    "from": {
-										x: "50vw",
-										y: "0vh",
-										fill:"#ff9900",
-										strokeWidth:0
-									},
-                                    "time": 5,
-                                    "to": {
-										x: "50vw",
-										y: "100vh",
-										fill:"#141614",
-										strokeWidth:"20%"
-                                    }
-                                },
-								{
-									"ease":"Quartic.InOut",
-                                    "delay": 5,
-                                    "from": {
-										scale:1
-									},
-                                    "time": 3,
-                                    "to": {
-										scale:2
-                                    }
+                                    "name": "fadeOut",
+                                    "time": 0.5,
+                                    "delay": 2.5
                                 }
                             ],
-                            "zIndex": 4,
-                            "width": null,
-                            "wrap": true,
-                            "height": null,
+                            "start": 0,
+                            "type": "gif",
+                            "refId": "p81jsgm3wx9",
+                            "zIndex": 1,
+                            "active": true,
+                            "children": []
+                        },
+                        {
+                            "url": "https://codepen.io/cassie-codes/pen/vYWvwXV",
+                            "x": "50vw",
+                            "y": "50vh",
+                            "width": "100vw",
+							"selector":"body",
+							"duration": 10,
+                            "effect": [
+								{
+                                    "name": "fadeIn",
+                                    "time": 2
+                                }
+							],
+							"transparent":true,
+                            "compositionId": "39w28c41fpy",
+                            "parentId": "wu8ydxpebzc",
+                            "type": "gsap",
+                            "refId": "4sj18y794",
+                            "zIndex": 1,
                             "active": true,
                             "children": [],
                             "start": 0,
