@@ -27,7 +27,7 @@ const video={
                     "isScene": true,
                     "children": [
 						{
-                            "src": "D:/code/foliko-trade/public/files/giphy.gif",
+                            "src": "D:/Date/20250906/video/editly/assets/img1.jpg",
                             "x": "50vw",
                             "y": "50vh",
                             "width": "100vw",
@@ -43,37 +43,28 @@ const video={
                                 }
                             ],
                             "start": 0,
-                            "type": "gif",
+                            "type": "image",
                             "refId": "p81jsgm3wx9",
                             "zIndex": 1,
                             "active": true,
                             "children": []
                         },
                         {
-                            "url": "https://codepen.io/goodcontext/pen/OJQxvZp",
+                            "text": "Hello Fabric.js!",
+                            "fontSize": "48px",
+                            "fontFamily": "sans-serif",
                             "x": "50vw",
-                            "y": "50vh",
-                            "width": "100vw",
-							"selector":".wrapper",
-							
-							"duration": 10,
-                            "effect": [
-								{
-                                    "name": "fadeIn",
-                                    "time": 0.5
-                                }
-							],
-							"transparent":true,
-                            "compositionId": "39w28c41fpy",
-                            "parentId": "wu8ydxpebzc",
-                            "type": "gsap",
-                            "refId": "4sj18y794",
-                            "zIndex": 1,
-                            "active": true,
-                            "children": [],
+                            "y": "40vh",
+                            "duration": 3,
+							"fontFamily":"D:/Date/20250906/video/editly/assets/Patua_One.ttf",
+                            "color": "#FFFFFF",
                             "start": 0,
-                            "end": 20
-                        }
+                            "type": "text",
+                            "refId": "gw0373qlaen",
+                            "zIndex": 4,
+                            "active": true,
+                            "children": []
+                        },
                     ]
                 }
 			],
